@@ -7,6 +7,10 @@ from stats.utils import time
 
 
 def get_repo_stats():
+    """
+    Возвращает сводную информацию о репозитории приложения
+    """
+
     repo = Repo(settings.BASE_DIR) 
 
     head_commit = repo.head.commit
