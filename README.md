@@ -17,7 +17,7 @@ python manage.py runserver
 GET /stats/fetch
 ```
 
-```json
+```JavaScript
 {
     "commit": "aad95f46b5ee6abcd99c3a165aa20297642d38ec",  // хеш хед-коммита текущей ветки
     "commit_date": "2018-04-12T07:53:19Z",  // дата хед-коммита текущей ветки
